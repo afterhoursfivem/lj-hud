@@ -3,6 +3,8 @@
 My qb-hud edit. Before you drone on about Pepe-HUD similarites, yes, there is parts of it in here. However, I've already gotten permission from the original developer.
 I don't fucking care for drama. Shut up and use it or don't idc.
 
+Runs at ~ 6 to 8 ms I can't be bothered to optimize more I will later on
+
 # Credits
 * Credit for compass/street names goes to [compass](https://github.com/thelindat/compass)
 
@@ -36,6 +38,14 @@ ensure lj-hud
 # Change Logs
 ### 1.0.0
 * Initial release
+
+# Future Shit
+* Dev radial displayed if you have permissions required 
+* In-game menu 
+* Radio icon appears when connected to radio channel
+* Cooldown radial option
+* Battery radial option
+* More optimization shit
 
 # Issues and Suggestions
 Please use the GitHub issues system to report issues or make suggestions, when making suggestion, please keep [Suggestion] in the title to make it clear that it is a suggestion.
