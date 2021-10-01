@@ -1,0 +1,487 @@
+@import url('https://fonts.cdnfonts.com/css/pricedown');
+
+html {
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.money-container {
+  font-family: 'pricedown'!important;
+  position: absolute;
+  right: 5vw;
+  top: 7vh;
+}
+
+#cash {
+  color: white;
+}
+
+.money-cash,.money-bank {
+  display: none;
+  float:right;
+  font-family: 'Pricedown Bl', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: white;
+  padding: 4px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 0;
+  margin-right: 6px;
+  margin-top: 6px;
+  padding: 0;
+}
+
+.money-cash {
+  font-family: 'Pricedown Bl', sans-serif;
+  color: rgb(210, 210, 210);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+}
+
+.money-bank {
+  font-family: 'Pricedown Bl', sans-serif;
+  color: rgb(167, 167, 167);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+  top: 55px;
+}
+
+#plus-changeamount {
+  font-family: 'Pricedown Bl', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+  color: #f0f0f0;
+}
+
+#minus-changeamount {
+  font-family: 'Pricedown Bl', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+  color: #f0f0f0;
+}
+
+.minus {
+  font-family: 'Pricedown Bl', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+  color: #801e1f;
+}
+
+.munnie {
+  font-family: 'Pricedown Bl', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+  color: #277418;
+}
+
+.moneyupdate {
+  float: right;
+  padding-left: 0.5vw;
+}
+
+.plus {
+  font-family: 'Pricedown Bl', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: right;
+  color: #277418;
+}
+
+.ui {
+  margin: 0 auto;
+	width: 580px;
+  height:300px;
+  z-index: 1000;
+  overflow: hidden;
+  display: none;
+  text-align: center;
+}
+
+.street {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  top: 6vh;
+  position: relative;
+  font-size: 14pt;
+  color:rgba(255,255,255, 1);
+  text-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7);
+}
+
+.compass {
+  margin: 0 auto;
+  top: 0.2vh;
+  position: relative;
+  font-size: 11pt;
+  font-weight:500;
+  color:rgba(255,255,255, 1);
+  text-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7);
+}
+
+.bar {
+  margin: 0 auto;
+  position: relative;
+  font-weight:500;
+  color:rgba(255,255,255, 1);
+  font-family: 'Oswald', sans-serif;
+}
+
+.svg {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  width:100%;
+  height: 35px;
+  font-size: 6pt;
+  font-weight: 800;
+  transform: scale(1);
+}
+
+.ui-car-container {
+    display: none;
+}
+
+.ui-car-time {
+    display: block !important;
+    position: absolute;
+    font-size: 1.5vh;
+    bottom: 4.5vw;
+    left: 17vw;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.ui-car-meters {
+    display: block !important;
+    position: absolute;
+    font-size: 1.5vh;
+    bottom: 4.5vw;
+    left: 20.5vw;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.car-info {
+    position: relative;
+    float: left;
+}
+
+.ui-car-otherinfo {
+    display: none;
+    position: absolute;
+    left: 22.5%;
+    bottom: 4.5%;
+    display: flex;
+}
+
+
+.ui-bars-container {
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+.progress {
+    -webkit-transition: 0.35s stroke-dashoffset;
+    -o-transition: 0.35s stroke-dashoffset;
+    transition: 0.35s stroke-dashoffset;
+    -webkit-transform: rotate(140deg);
+    -ms-transform: rotate(140deg);
+    transform: rotate(140deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+
+  
+
+  .backgroundCircle {
+    
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+
+  .progressplayer {
+    -webkit-transition: 1.25s stroke-dashoffset;
+    -o-transition: 1.25s stroke-dashoffset;
+    transition: 1.25s stroke-dashoffset;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+
+  .fundo {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+
+  .progressmic {
+    -webkit-transition: 1.25s stroke-dashoffset;
+    -o-transition: 1.25s stroke-dashoffset;
+    transition: 1.25s stroke-dashoffset;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  
+  .circle-icon {
+      font-size: 1.5vh;
+      color: white;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #BF360C;
+	}
+	50% {
+		box-shadow: 0 0 0 5px #bf360cb9;
+	}
+	100% {
+		box-shadow: 0 0 0 0 #bf360c85;
+	}
+
+    
+}
+
+.car-belt {
+    position: absolute;
+    top: -10vh;
+    left: 4.8vh;
+  
+    border-radius: 50%;
+    width: 3.5vh;
+   
+    height: 3.5vh;
+   
+}
+
+.car-belt i {
+    color: rgb(136, 136, 136);
+    padding: .9vh;
+    font-size: 1.2vh;
+   }
+   
+
+   .car-speedo {
+    left: 6vh;
+    top: -2.5vh;
+    position: absolute;
+    border-top: 3px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    border-right: 3px solid transparent;
+    border-left: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 32px;
+    transform: rotate(345deg);
+   }
+
+   .speed-type {
+    font-size: 14px;
+   }
+   
+   
+   .car-speedcounter {
+    position: absolute;
+    top: -1vh;
+    left: 1vh;
+    width: 20vh;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+   }
+
+
+
+.backgroundCircle2 {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  
+  .mph {
+    position: relative;
+    top: -7px;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 800;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7);
+  }
+  
+  .fuel {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 45% 45%;
+    opacity: 1;
+  }
+  
+  .counter {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .counter .counter2 {
+    position: relative;
+    height: 200%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .counter .counter2 div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  .counter .counter2 div svg {
+    opacity: 0.2;
+  }
+  .counter .counter2 .active svg {
+    opacity: 0.8;
+  }
+  
+  .counter .counter2 .speedometer {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase; 
+  }
+  .counter .counter2 .speedometer svg {
+    opacity: 1;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    -webkit-transform: scale(1.8) translate(-25%, -25%);
+    -ms-transform: scale(1.8) translate(-25%, -25%);
+    transform: scale(1.8) translate(-25%, -25%);
+  }
+  
+  .counter .counter2 .speedometer .text {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+  .counter .counter2 .speedometer .text .speed {
+    color: white;
+    font-size: 22px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: -1px -1px 0 rgba(0,0,0, 0.7), 1px -1px 0 rgba(0,0,0, 0.7), -1px 1px 0 rgba(0,0,0, 0.7), 1px 1px 0 rgba(0,0,0, 0.7);
+  }
+  
+  .addon {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: -22%;
+  }
+  
+  .engine-red img {
+    display: flex;
+    position: absolute;
+    top: -26%;
+    right: -2.3vh;
+    width: 2.3vh;
+  }
+
+  .engine-orange img {
+    display: flex;
+    position: absolute;
+    top: -26%;
+    right: -2.3vh;
+    width: 2.3vh;
+  }
+
+  .car-seatbelt-info img {
+    display: flex;
+    position: absolute;
+    top: -26%;
+    right: -5vh;
+    width: 2vh;
+  }
+   
+
+  .outline {
+    display: none;
+    position: fixed!important;
+    bottom: 8%;
+    left: 1.3%;
+    width: 0%;
+    text-align: center;
+}
+
+.mapbordersquare {
+    left: 4px;
+    width: 29vh;
+    height: 21.5vh;
+    border: 4px solid #ebebeb;
+    position: relative;
+    top: 6px;
+    display: inline-block;
+}
+
+.mapbordercircle {
+    left: -2px;
+    width: 27.3vh;
+    height: 23vh;
+    border: 4px solid #ebebeb;
+    border-radius: 50%;
+    position: relative;
+    top: 18px;
+    display: inline-block;
+}
+
